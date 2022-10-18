@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .button {
 	border: none;
 	color: white;
@@ -16,4 +17,24 @@
 
 #azul {
     background-color: blue;
+=======
+.button {
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+#verde {
+    background-color: green;
+}
+
+#azul {
+    background-color: blue;
+>>>>>>> f8cfa1941449ec2364f98718094e213f1b6b1c86
 }

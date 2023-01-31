@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarefa 10</title>
+    <script src="javascript.js"></script>
+  </head>
+  <body style="text-align: center; background-color: rgb(127, 214, 255)">
+    <img src="img/a.png" alt="" width="9%" style="border-radius: 50%" />
+    <h1 style="color: chocolate">PET HAPPY</h1>
+    <div>
+      <table align="center">
+        <thead>
+          <tr>
+            <th scope="col">Nome do Dono</th>
+            <th scope="col">Nome do Bichinho</th>
+            <th scope="col">Espécie</th>
+            <th scope="col">Data da consulta</th>
+            <th scope="col">Telefone</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Rafael</td>
+            <td>Floyd</td>
+            <td>Gato</td>
+            <td>29/09/22</td>
+            <td>90494-4567</td>
+          </tr>
+          <tr>
+            <th>Novos agendamentos</th>
+          </tr>
+          <tr id="inserirTabela"></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="m-5">
+      <hr class="border-primary border-3 opacity-75" />
+    </div>
+    <h2>Agendar Consulta</h2>
+    <form name="cadastrar" onsubmit="event.preventDefault()">
+      <div class="row">
+        <label for="pe" class="form-label">Nome do Dono</label>
+        <input
+          type="text"
+          id="pessoa"
+          class="form-control"
+          name="pe"
+          required
+        />
+      </div>
+      <div class="row">
+        <label for="bi" class="form-label">Nome Bichinho</label>
+        <input
+          type="text"
+          id="Bichinho"
+          class="form-control"
+          name="bi"
+          required
+        />
+      </div>
+      <div class="row">
+        <label for="es" class="form-label">Tipo de Espécie</label>
+        <input
+          type="text"
+          id="Espécie"
+          class="form-control"
+          name="es"
+          required
+        />
+      </div>
+      <div class="row">
+        <label for="da" class="form-label">Data Consulta</label>
+        <input
+          type="datetime-local"
+          id="data"
+          class="form-control"
+          name="da"
+          required
+        />
+      </div>
+      <div class="row">
+        <label for="t1" class="form-label">Telefone (DDD)</label>
+        <input type="tel" id="tel" class="form-control" name="t1" required />
+      </div>
+      <br />
+      <div class="col-auto">
+        <button type="submit" onclick="pet()">Marcar Consulta</button>
+      </div>
+    </form>
+  </body>
+</html>

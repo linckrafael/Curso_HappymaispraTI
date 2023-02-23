@@ -1,0 +1,77 @@
+/* texto hero image */
+.hero_titulo {
+  font-size: 4rem;
+}
+.hero_desc {
+  font-size: 2rem;
+}
+.hero-text {
+  text-align: right;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+.bgimage {
+  height: 100vh;
+  background: url("img/capa.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+/* imagem sobre */
+
+.imagemSobre {
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* habilidades */
+
+.servicesText.card {
+  height: 280px;
+  cursor: pointer;
+}
+
+.servicesIcon {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card:hover .servicesIcon {
+  color: green;
+}
+
+.servicesText:hover {
+  border: 2px solid black;
+}
+
+/*menu*/
+.navbar {
+  background-color: rgb(168, 162, 162);
+}
+
+.navbar a {
+  color: aliceblue;
+}
+
+.navbar a:hover {
+  color: black;
+  background-color: #ddd;
+  border-radius: 5%;
+}
+
+.contactIcon {
+  font-size: 56px;
+  color: black;
+}
+
+.contactIcon:hover {
+  font-size: 66px;
+}
